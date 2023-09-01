@@ -1,5 +1,5 @@
-public class Vowels {
-  public static int getCount(String str) {
+public class VowelCount{
+  public static int getCount(String str){
   
     // Start of Solution
     int count = 0;
