@@ -1,0 +1,17 @@
+public class TransportationOnVacation{
+  public static int rentalCarCost(int d){
+    
+    // Start of Solution
+    if(d < 3){
+      return d * 40;
+    }
+    else if(d >= 3 && d <= 6){
+      return (d * 40) - 20;
+    }
+    else{
+      return (d * 40) - 50;
+    }
+    // End of Solution
+    
+  }
+}
